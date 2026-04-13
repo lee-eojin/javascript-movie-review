@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
     <title>영화 리뷰</title>
-    <script type="module" crossorigin src="/javascript-movie-review/assets/index-CLMMyawZ.js"></script>
-    <link rel="stylesheet" crossorigin href="/javascript-movie-review/assets/index-C3mARy4J.css">
+    <script type="module" crossorigin src="/javascript-movie-review/assets/index-B_6c6yX7.js"></script>
+    <link rel="stylesheet" crossorigin href="/javascript-movie-review/assets/index--tIEm9xP.css">
   </head>
   <body>
     <div id="app">
@@ -15,10 +18,12 @@
       <div class="container">
         <main>
           <section>
-            <h2 class="main-title">지금 인기 있는 영화</h2>
-            <div class="main-result"></div>
-            <ul class="thumbnail-list"></ul>
-            <button class="btn-more" style="display: none">더 보기</button>
+            <div class="movie-section">
+              <h2 class="main-title">지금 인기 있는 영화</h2>
+              <div class="main-result"></div>
+              <ul class="thumbnail-list"></ul>
+            </div>
+            <div class="scroll-sentinel"></div>
           </section>
         </main>
       </div>
@@ -29,5 +34,6 @@
         <p>&copy; 우아한테크코스 All Rights Reserved.</p>
       </footer>
     </div>
+    <dialog class="modal"></dialog>
   </body>
 </html>
